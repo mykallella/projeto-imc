@@ -1,31 +1,10 @@
-h1, h2 {
-    color: #d4d4d2;
+.area-tela {
+    display: flex;
+    justify-content: center;
 }
 
-h1 {
-    margin-block-start: 0;
-    color: white;    
-}
-
-.container-area {    
-    display: flex;    
-    align-items: center;
-    justify-content: space-between;    
-
-    width: 100%;
-}
-
-input {
-    height: 1.5em;
-}
-
-textarea {
-    width: 100%;
-    margin-top: 2em;
-}
-
-.container {
-    display: inline-flex;
+.container-todos {
+    display: inline-flex; /* Define o body a somente o espaço dos itens existentes */
     flex-direction: column;
     align-items: center; /* Se 'column', então 'align-items' */    
 
@@ -33,9 +12,25 @@ textarea {
     padding: 1.5em;
 }
 
-.area {
-    display: flex;
-    justify-content: center;
+.container-input {    
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;    
+
+    width: 100%;
+}
+
+h1 {
+    margin-block-start: 0;
+    color: white;    
+}
+
+h2 {
+    color: #d4d4d2;
+}
+
+input {
+    height: 1.5em;
 }
 
 button {
@@ -50,4 +45,15 @@ button {
 button:hover {
     cursor: pointer;
 }
+
+textarea {
+    width: 100%;
+    margin-top: 2em;
+}
+
+
+
+
+
+
 
